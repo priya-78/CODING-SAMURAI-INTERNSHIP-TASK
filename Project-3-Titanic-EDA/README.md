@@ -1,12 +1,12 @@
-# 🚢 Exploratory Data Analysis on the Titanic Dataset  
+# Exploratory Data Analysis on the Titanic Dataset  
 
-## 📌 Overview  
+## Overview  
 This project focuses on performing **Exploratory Data Analysis (EDA)** on the **Kaggle Titanic dataset**.  
 The goal of this analysis is to clean the dataset, explore key patterns, and visualize relationships between features and survival outcomes.  
 
 ---
 
-## 📂 Dataset  
+## Dataset  
 - **Source**: [Kaggle – Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)  
 - **Files Used**:  
   - `train.csv` → Training data with survival labels  
@@ -17,7 +17,7 @@ The goal of this analysis is to clean the dataset, explore key patterns, and vis
 
 ---
 
-## 🛠️ Skills Demonstrated  
+## Skills Demonstrated  
 - Data wrangling and handling missing values  
 - Exploratory Data Analysis (EDA) using **Pandas**, **Seaborn**, and **Matplotlib**  
 - Statistical summaries and correlation analysis  
@@ -25,7 +25,7 @@ The goal of this analysis is to clean the dataset, explore key patterns, and vis
 
 ---
 
-## 🔍 Analysis Workflow  
+## Analysis Workflow  
 
 1. **Data Inspection**  
    - Checked data types, missing values, and statistical summaries.  
@@ -51,7 +51,7 @@ The goal of this analysis is to clean the dataset, explore key patterns, and vis
 
 ---
 
-## 📊 Key Insights  
+## Key Insights  
 
 - **Gender**: Females had a significantly higher chance of survival compared to males.  
 - **Passenger Class**: 1st-class passengers survived at a higher rate than those in 2nd or 3rd class.  
@@ -61,14 +61,14 @@ The goal of this analysis is to clean the dataset, explore key patterns, and vis
 
 ---
 
-## 📦 Deliverables  
+## Deliverables  
 - `Titanic_EDA.ipynb` → Jupyter Notebook with the full analysis  
 - `train.csv` → Dataset used for analysis  
 - `README.md` → Project documentation and insights  
 
 ---
 
-## 🚀 How to Run  
+## How to Run  
 1. Clone the repository:  
    ```bash
    git clone <your-repo-link>
@@ -79,6 +79,6 @@ The goal of this analysis is to clean the dataset, explore key patterns, and vis
 
 ---
 
-## 🙌 Acknowledgments  
+## Acknowledgments  
 - Dataset provided by [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic/data).  
 - Analysis inspired by the **Coding Samurai Data Science Internship (Project 3: EDA on Titanic Dataset)**.  
