@@ -9,17 +9,16 @@ Building on the exploratory data analysis from **Project 3**, this project demon
 - 🔹 Logistic Regression model training and evaluation  
 - 🔹 Performance analysis using multiple metrics  
 
----
+
 
 ## 📂 Dataset  
 - **Source**: [Kaggle – Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic/data)  
 - **Files Used**:  
   - `train.csv` → Training dataset with survival labels  
-  - *(Optional: `test.csv` for Kaggle submission)*  
 
 - **Target Variable**: `Survived` (0 = Did not survive, 1 = Survived)  
 
----
+
 
 ## 🛠️ Skills Demonstrated  
 - Logistic Regression (Classification)  
@@ -28,7 +27,7 @@ Building on the exploratory data analysis from **Project 3**, this project demon
 - Model Evaluation (Accuracy, Precision, Recall, F1-score, ROC-AUC)  
 - Data Visualization (Seaborn, Matplotlib)  
 
----
+
 
 ## 🔍 Feature Engineering  
 To improve prediction power, the following features were created:  
@@ -38,7 +37,7 @@ To improve prediction power, the following features were created:
 - 🎂 **AgeGroup** = binned into Child, Teen, Adult, Senior  
 - 💰 **FareBin** = binned into Low, Medium, High, Very High  
 
----
+
 
 ## 📊 Model Training & Evaluation  
 
@@ -57,22 +56,31 @@ To improve prediction power, the following features were created:
   - F1-Score balanced ~0.80  
 - ✅ **ROC Curve & AUC**: ~0.82 (strong classification ability)  
 
----
+
+
+## 📈 Visual Results  
+
+### Confusion Matrix  
+![Confusion Matrix](results/confusion_matrix.png)  
+
+### ROC Curve  
+![ROC Curve](results/roc_curve.png)  
+
+
 
 ## 📦 Deliverables  
 - 📓 `Titanic_LogisticRegression.ipynb` → Full analysis notebook  
 - 📘 `README.md` → Project documentation  
-
-*(Optional additions)*  
 - 📂 `results/` → Confusion Matrix, ROC Curve plots  
 - 📄 `requirements.txt` → Dependencies for reproducibility  
 
----
+
 
 ## 🚀 How to Run  
-1. Clone the repository:  
-   ```bash
+1. Clone the repository:
    git clone <your-repo-link>
    cd Titanic-LogisticRegression
-2. Open the notebook in Google Colab or Jupyter Notebook
-3. Run all cells to train the model and view evaluation results
+2. Install dependencies:
+    pip install -r requirements.txt
+3. Open the notebook in Google Colab or Jupyter Notebook
+4. Run all cells to train the model and view evaluation results
