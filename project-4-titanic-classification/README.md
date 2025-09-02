@@ -74,3 +74,5 @@ To improve prediction power, the following features were created:
    ```bash
    git clone <your-repo-link>
    cd Titanic-LogisticRegression
+2. Open the notebook in Google Colab or Jupyter Notebook
+3. Run all cells to train the model and view evaluation results
